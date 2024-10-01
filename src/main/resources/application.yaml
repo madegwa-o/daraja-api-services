@@ -1,0 +1,30 @@
+ #application.yaml
+ server:
+   port: ${CONTAINER_PORT}
+
+ spring:
+   application:
+     name: StkPush_B2C
+     profiles:
+       active: ${ACTIVE_PROFILE}
+
+   data:
+     mongodb:
+       host: ${MONGO_HOST}
+       port: ${MONGO_PORT}
+       database: ${MONGO_DATABASE}
+
+
+ mpesa:
+   daraja:
+     consumerKey: ${CONSUMER_KEY}
+     consumerSecret: ${CONSUMER_SECRET}
+     accessTokenUrl: ${ACCESS_URL}
+     paymentUrl: ${PAYMENT_URL}
+     businessShortCode: ${BUSINESS_SHORT_CODE}
+     passKey: ${PASSKEY}
+     callbackUrl: ${CALL_BACK_URL}
+
+
+
+

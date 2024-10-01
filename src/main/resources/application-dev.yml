@@ -1,0 +1,17 @@
+# MongoDB
+MONGO_HOST: localhost
+MONGO_PORT: 27017
+MONGO_DATABASE: cashdb
+
+# Server
+CONTAINER_PORT: 8080
+ACTIVE_PROFILE: dev
+
+#mpesa
+CONSUMER_KEY: KfE72Dp72BGFYdtJWUCAsyl1yGtiPPAA4YzWbprGHFFTsXyK
+CONSUMER_SECRET: XMMqk4pqmy8Q14lzBeZ41VFO7HxXDiRrWXfA5b5axpfnda6GHpNsgBb7zh0GDQAv
+ACCESS_URL: https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials
+PAYMENT_URL: https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest
+BUSINESS_SHORT_CODE: 174379
+PASSKEY: bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919
+CALL_BACK_URL: https://b983-105-161-142-134.ngrok-free.app/callback
